@@ -1,122 +1,122 @@
-Oct 14, 2021 1:34:41 PM reposense.parser.CsvParser validateHeader
+Oct 15, 2021 12:03:49 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Ignore standalone config
-Oct 14, 2021 1:34:41 PM reposense.parser.CsvParser validateHeader
+Oct 15, 2021 12:03:49 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Oct 14, 2021 1:34:41 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Oct 15, 2021 12:03:49 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias Lim found. The alias will belong to the last author - jr-mojito
-Oct 14, 2021 1:34:41 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Oct 15, 2021 12:03:49 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias Lim found. The alias will belong to the last author - jr-mojito
-Oct 14, 2021 1:34:41 PM reposense.parser.CsvParser validateHeader
+Oct 15, 2021 12:03:49 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, group-config.csv, and recognized columns: Globs,  Repository's Location,  Group Name
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-4/tp.git...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-3/tp.git...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-2/tp.git...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-6/tp.git...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-3/tp.git...
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-6/tp.git to complete...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-4/tp.git to complete...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-2/tp.git to complete...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-3/tp.git to complete...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+Oct 15, 2021 12:03:49 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-2/tp.git to complete...
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-3/tp.git completed!
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-5/tp.git...
-Oct 14, 2021 1:34:41 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master)...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-5/tp.git to complete...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-4/tp.git completed!
-Oct 14, 2021 1:34:41 PM reposense.report.ReportGenerator updateRepoConfig
+Oct 15, 2021 12:03:50 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master)...
+Oct 15, 2021 12:03:50 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master) does not contain a standalone config file.
-Oct 14, 2021 1:34:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 15, 2021 12:03:50 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master)...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-1/tp.git...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-1/tp.git to complete...
-Oct 14, 2021 1:34:41 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-6/tp.git completed!
-Oct 14, 2021 1:34:41 PM reposense.report.RepoCloner waitForCloneProcess
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-2/tp.git completed!
-Oct 14, 2021 1:34:41 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master) does not contain a standalone config file.
-Oct 14, 2021 1:34:41 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-5/tp.git completed!
-Oct 14, 2021 1:34:42 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-1/tp.git completed!
-Oct 14, 2021 1:34:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master) completed!
-Oct 14, 2021 1:34:42 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [3/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-6/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master) completed!
-Oct 14, 2021 1:34:42 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [4/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.report.ReportGenerator updateRepoConfig
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-6/tp.git completed!
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY2122S1-TIC4001-F18-1/tp.git...
+Oct 15, 2021 12:03:50 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-6/tp.git (master)...
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY2122S1-TIC4001-F18-1/tp.git to complete...
+Oct 15, 2021 12:03:50 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2122S1-TIC4001-F18-6/tp.git (master) does not contain a standalone config file.
-Oct 14, 2021 1:34:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 15, 2021 12:03:50 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-6/tp.git (master)...
-Oct 14, 2021 1:34:42 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master) does not contain a standalone config file.
-Oct 14, 2021 1:34:42 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 15, 2021 12:03:50 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-4/tp.git completed!
+Oct 15, 2021 12:03:50 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-6/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 15, 2021 12:03:50 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-6/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
+Oct 15, 2021 12:03:50 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-6/tp.git (master) completed!
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [5/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-5/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 15, 2021 12:03:50 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [3/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master)...
+Oct 15, 2021 12:03:50 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master) does not contain a standalone config file.
+Oct 15, 2021 12:03:50 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-5/tp.git completed!
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-3/tp.git (master) completed!
+Oct 15, 2021 12:03:51 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY2122S1-TIC4001-F18-1/tp.git completed!
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [4/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master) does not contain a standalone config file.
+Oct 15, 2021 12:03:51 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-2/tp.git (master) completed!
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [6/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator updateRepoConfig
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [5/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-5/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2122S1-TIC4001-F18-5/tp.git (master) does not contain a standalone config file.
-Oct 14, 2021 1:34:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 15, 2021 12:03:51 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-5/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator updateRepoConfig
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-4/tp.git (master) completed!
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [6/6] Analyzing https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master) does not contain a standalone config file.
-Oct 14, 2021 1:34:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Oct 15, 2021 12:03:51 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-5/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-5/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-5/tp.git (master) completed!
-Oct 14, 2021 1:34:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master)...
+Oct 15, 2021 12:03:51 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master)...
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator analyzeRepo
+Oct 15, 2021 12:03:51 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY2122S1-TIC4001-F18-1/tp.git (master) completed!
-Oct 14, 2021 1:34:43 PM reposense.report.ReportGenerator generateReposReport
+Oct 15, 2021 12:03:52 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/tp-dashboard/tp-dashboard/reposense-report
-Oct 14, 2021 1:34:43 PM reposense.RepoSense main
-INFO: Elapsed processing time: 2.86 second(s)
+Oct 15, 2021 12:03:52 AM reposense.RepoSense main
+INFO: Elapsed processing time: 2.81 second(s)
