@@ -1,7 +1,7 @@
 Repository's Location,Branch,File Formats,Ignore Glob List,Ignore standalone config,Ignore Commit List,Ignore Authors List,Shallow Cloning
-https://github.com/AY2122S1-TIC4001-F18-3/tp.git,master,java;fxml;bat;sh;css;xml;json;md;adoc;puml;properties;gradle,tutorials/**,,,,
-https://github.com/AY2122S1-TIC4001-F18-6/tp.git,master,java;fxml;bat;sh;css;xml;json;md;adoc;puml;properties;gradle,tutorials/**,,,,
-https://github.com/AY2122S1-TIC4001-F18-4/tp.git,master,java;fxml;bat;sh;css;xml;json;md;adoc;puml;properties;gradle,tutorials/**,,,,
-https://github.com/AY2122S1-TIC4001-F18-5/tp.git,master,java;fxml;bat;sh;css;xml;json;md;adoc;puml;properties;gradle,tutorials/**,,,,
-https://github.com/AY2122S1-TIC4001-F18-2/tp.git,master,java;fxml;bat;sh;css;xml;json;md;adoc;puml;properties;gradle,tutorials/**,,,,
-https://github.com/AY2122S1-TIC4001-F18-1/tp.git,master,java;fxml;bat;sh;css;xml;json;md;adoc;puml;properties;gradle,tutorials/**,,,,
+https://github.com/AY2122S1-TIC4001-F18-3/tp.git,master,java;fxml;bat;sh;css;xml;md;adoc;puml;properties;gradle,tutorials/**,,,,
+https://github.com/AY2122S1-TIC4001-F18-6/tp.git,master,java;fxml;bat;sh;css;xml;md;adoc;puml;properties;gradle,tutorials/**,,,,
+https://github.com/AY2122S1-TIC4001-F18-4/tp.git,master,java;fxml;bat;sh;css;xml;md;adoc;puml;properties;gradle,tutorials/**,,,,
+https://github.com/AY2122S1-TIC4001-F18-5/tp.git,master,java;fxml;bat;sh;css;xml;md;adoc;puml;properties;gradle,tutorials/**,,,,
+https://github.com/AY2122S1-TIC4001-F18-2/tp.git,master,java;fxml;bat;sh;css;xml;md;adoc;puml;properties;gradle,tutorials/**,,,,
+https://github.com/AY2122S1-TIC4001-F18-1/tp.git,master,java;fxml;bat;sh;css;xml;md;adoc;puml;properties;gradle,tutorials/**,,,,
